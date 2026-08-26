@@ -1,4 +1,5 @@
-# ChatMate
+# ChatMate V.7
+By Ahmad Riiko Dyansyah
 
 Aplikasi chat mobile bergaya WhatsApp, dibangun dengan **Flutter/Dart + Firebase**.
 Pesan teks, foto, video, dan dokumen **benar-benar terkirim ke server (Firebase)**,
