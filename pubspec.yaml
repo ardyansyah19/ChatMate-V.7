@@ -1,0 +1,56 @@
+name: chatmate
+description: "ChatMate - Aplikasi chat bergaya WhatsApp dibangun dengan Flutter + Firebase"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # --- Firebase (backend real: auth, database realtime, penyimpanan file) ---
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.4
+
+  # Untuk memilih & mengambil foto / video dari galeri atau kamera
+  image_picker: ^1.1.2
+
+  # Untuk memilih dokumen (pdf, docx, xlsx, dll)
+  file_picker: ^8.1.2
+
+  # Untuk memutar video di dalam chat
+  video_player: ^2.9.2
+
+  # Untuk membuka dokumen dengan aplikasi bawaan HP
+  open_filex: ^4.5.0
+
+  # Untuk menyimpan foto/video yang diterima ke galeri HP penerima
+  gal: ^2.3.0
+
+  # Untuk mengunduh file dari URL (Firebase Storage) ke penyimpanan lokal
+  dio: ^5.7.0
+
+  # Format tanggal & waktu ala WhatsApp (Hari ini, Kemarin, dst)
+  intl: ^0.19.0
+
+  # Menyimpan file sementara / folder dokumen aplikasi
+  path_provider: ^2.1.4
+  path: ^1.9.0
+
+  # Membuat ID unik untuk pesan & file yang diunggah
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
