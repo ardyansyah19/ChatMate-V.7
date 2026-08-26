@@ -1,11 +1,6 @@
 # ChatMate V.7
 By Ahmad Riiko Dyansyah
 
-Aplikasi chat mobile bergaya WhatsApp, dibangun dengan **Flutter/Dart + Firebase**.
-Pesan teks, foto, video, dan dokumen **benar-benar terkirim ke server (Firebase)**,
-sehingga bisa dibuka, dilihat, dan diunduh oleh penerima di HP lain — bukan lagi
-simulasi lokal satu perangkat.
-
 ## Bagaimana cara kerjanya
 
 - **Firebase Authentication (Anonymous)** — tiap HP yang membuka app otomatis
